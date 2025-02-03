@@ -25,6 +25,7 @@ const ClerkProvider = dynamic(() =>
 )
 // 在顶部导入 SpeedInsights
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/next';
 
 /**
  * App挂载DOM 入口文件
@@ -59,6 +60,7 @@ const MyApp = ({ Component, pageProps }) => {
       <GLayout {...pageProps}>
         <SEO {...pageProps} />
         <Component {...pageProps} />
+        <Analytics />
         <SpeedInsights />
       </GLayout>
       <ExternalPlugins {...pageProps} />
