@@ -59,7 +59,6 @@ const MyApp = ({ Component, pageProps }) => {
       <GLayout {...pageProps}>
         <SEO {...pageProps} />
         <Component {...pageProps} />
-        {/* 添加 SpeedInsights 组件 */}
         <SpeedInsights />
       </GLayout>
       <ExternalPlugins {...pageProps} />
