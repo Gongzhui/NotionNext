@@ -69,7 +69,7 @@ const CONFIG = {
     {
       title_1: 'Anthropic',
       img_1: '/images/heo/Anthropic.webp',
-      color_1: '#d97757',
+      color_1: '#ffffff',
       title_2: 'DeepSeek',
       img_2: '/images/heo/DeepSeek.webp',
       color_2: '#ffffff'
